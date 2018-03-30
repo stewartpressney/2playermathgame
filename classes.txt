@@ -1,0 +1,24 @@
+PLAYER
+  state: keeps track of the amount of lives, the player's name, the player's score (right answers)
+  behaviour: score can go up and lives can go down
+
+    intiialize: name, lives, right answers
+    methods:
+              1. lose life
+              2. right answer (+1)
+
+MATH QUESTIONS
+  state: generates random math questions
+  behaviour: evaluates if what was answered is correct
+
+    intialize: 2 numbers and an operator
+    methods:
+              1. generate question
+              2. evaluate if answer is correct
+
+
+GAME
+  state: keeps track of who's turn it is
+  behaviour: switches to the next players turn
+
+    intitialize: firs turn
